@@ -15,7 +15,8 @@
 	<PackageIcon>icon.png</PackageIcon>
 	<PackageProjectUrl>https://github.com/imsziya/MongoDbBridge.Client</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/imsziya/MongoDbBridge.Client</RepositoryUrl>
-	<PackageLicenseUrl>https://github.com/imsziya/MongoDbBridge.Client/blob/main/LICENSE</PackageLicenseUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<Copyright>Copyright © Md Shafique Ziya 2024</Copyright>
   </PropertyGroup>  
   <ItemGroup>
 	  <Content Include="Icon\icon.png">
