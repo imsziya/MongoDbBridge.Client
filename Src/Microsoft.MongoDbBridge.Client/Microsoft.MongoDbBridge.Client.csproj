@@ -3,30 +3,26 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <PackageId>Microsoft.MongoDbBridge.Client</PackageId>
-	  <Version>1.0.0</Version>
-	  <Authors>Md Shafique Ziya</Authors>
-	  <Description>
-		  MongoBridge is a flexible and efficient MongoDB client that leverages the power of Entity Framework Core-like structures with generics, designed for .NET Core applications.
-	  </Description>
-	  <PackageTags>MongoDB;MongoDBClient;MongoDbBridge;EntityFramework;EFCore;dotnet;MongoBridge</PackageTags>
-	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <RepositoryType>git</RepositoryType>
-	  <PackageIcon>icon.png</PackageIcon>
-  </PropertyGroup>
-
-  
+	<PackageId>Microsoft.MongoDbBridge.Client</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Md Shafique Ziya</Authors>
+	<Description>
+		MongoBridge is a flexible and efficient MongoDB client that leverages the power of Entity Framework Core-like structures with generics, designed for .NET Core applications.
+	</Description>
+	<PackageTags>MongoDB;MongoDBClient;MongoDbBridge;EntityFramework;EFCore;dotnet;MongoBridge</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryType>git</RepositoryType>
+	<PackageIcon>icon.png</PackageIcon>
+	<PackageProjectUrl>https://github.com/imsziya/MongoDbBridge.Client</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/imsziya/MongoDbBridge.Client</RepositoryUrl>
+	<PackageLicenseUrl>https://github.com/imsziya/MongoDbBridge.Client/blob/main/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>  
   <ItemGroup>
 	  <Content Include="Icon\icon.png">
 		  <Pack>True</Pack>
 		  <PackagePath>\</PackagePath>
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
-  </ItemGroup>
-
-  
-  <ItemGroup>
-    <Folder Include="Model\" />
   </ItemGroup>
 
   
